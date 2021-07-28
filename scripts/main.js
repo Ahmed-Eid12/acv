@@ -110,8 +110,8 @@
 
 // open cv in popup
 let windowObjectReference;
-const windowFeatures = "menubar=yes,location=yes,resizable=yes,scrollbars=yes,status=yes";
+const windowFeatures = "width=800,height=2000";
 
 function openRequestedPopup() {
-  windowObjectReference = window.open("/cv.html", "CNN_WindowName", windowFeatures);
+  windowObjectReference = window.open("/cv.html", "MsgWindow", windowFeatures);
 }
