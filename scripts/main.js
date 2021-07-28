@@ -113,5 +113,6 @@ let windowObjectReference;
 const windowFeatures = "width=800,height=2000";
 
 function openRequestedPopup() {
-  windowObjectReference = window.open("/cv.html", "MsgWindow", windowFeatures);
+  // windowObjectReference = window.open("/cv.html", "MsgWindow", windowFeatures);
+  windowObjectReference = window.open("/acv/cv.html", "MsgWindow", windowFeatures);
 }
