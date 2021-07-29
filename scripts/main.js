@@ -113,6 +113,6 @@ let windowObjectReference;
 const windowFeatures = "menubar=yes,location=yes,resizable=yes,scrollbars=yes,status=yes";
 
 function openRequestedPopup() {
-  windowObjectReference = window.open("/cv.html", ", CNN_WindowName", windowFeatures);
-  // windowObjectReference = window.open("/acv/cv.html", "CNN_WindowName", windowFeatures);
+  // windowObjectReference = window.open("/cv.html", ", CNN_WindowName", windowFeatures);
+  windowObjectReference = window.open("/acv/cv.html", "CNN_WindowName", windowFeatures);
 }
